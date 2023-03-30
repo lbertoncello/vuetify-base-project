@@ -11,7 +11,5 @@ import router from '../router';
 
 export default function registerPlugins(app) {
   loadFonts();
-  app
-    .use(vuetify)
-    .use(router);
+  app.use(vuetify).use(router);
 }
