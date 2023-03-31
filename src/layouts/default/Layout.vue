@@ -5,5 +5,5 @@
 </template>
 
 <script setup>
-import DefaultView from './DefaultView.vue';
+import DefaultView from './View.vue';
 </script>

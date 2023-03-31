@@ -25,7 +25,7 @@ module.exports = {
     'import',
   ],
   settings: {
-    "import/resolver": {
+    'import/resolver': {
       alias: {
         map: [ 
           ['@', './src']
@@ -38,5 +38,8 @@ module.exports = {
     }
   },
   rules: {
+    'vue/multi-word-component-names': ['error', {
+      'ignores': [ 'Home', 'Layout', 'View' ]
+    }]
   },
 };
